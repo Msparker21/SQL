@@ -1,0 +1,36 @@
+/** mobilitystore:
+ice skates (5)
+roller blades (5)
+surf board (1)
+moped (2)
+skate board (4)
+hover board (2)
+scooter (6)
+go karts (10)
+motorcycle (3)
+jet skis (7)
+wheel chair (8)
+bike (4)
+wagon (2)
+ATV (12)
+**/
+
+CREATE TABLE mobilitystore (id INTEGER PRIMARY KEY, name TEXT, quantity INTEGER, color TEXT, price INTEGER);
+
+INSERT INTO mobilitystore VALUES (1, "ice skate", 5, "orange", 19.99);
+INSERT INTO mobilitystore VALUES (2, "rollerblades", 5, "black", 39.99);
+INSERT INTO mobilitystore VALUES (3, "surfboard", 1, "purple", 99.99);
+INSERT INTO mobilitystore VALUES (4, "moped", 2, "blue",700);
+INSERT INTO mobilitystore VALUES (5,"skate board",4, "green", 29.99);
+INSERT INTO mobilitystore VALUES (6, "hover board", 1, "brown", 200);
+INSERT INTO mobilitystore VALUES (7, "scooter", 6, "yellow",149.99);
+INSERT INTO mobilitystore VALUES (8, "go karts", 10, "white", 899.99);
+INSERT INTO mobilitystore VALUES (9, "motorcycle", 3, "gold", 999.99);
+INSERT INTO mobilitystore VALUES (10, "motorbikes", 3, "silver", 899.99);
+INSERT INTO mobilitystore VALUES (11, "jetskis", 7, "cream", 299.99);
+INSERT INTO mobilitystore VALUES (12,"wheelchair", 8, "toupe",249.99);
+INSERT INTO mobilitystore VALUES (13, "bike", 4, "pink", 89.99);
+INSERT INTO mobilitystore VALUES (14, "wagon",2, "grey", 9.99);
+INSERT INTO mobilitystore VALUES (15, "ATV",12, "lime", 599.99);
+
+  SELECT * FROM mobilitystore;
